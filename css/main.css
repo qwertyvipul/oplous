@@ -1,0 +1,148 @@
+/*UNIVERSAL*/
+*{ margin:0; padding:0; box-sizing:border-box; }
+@font-face{ font-family: Roboto; src: url('../assets/Roboto/Roboto-Regular.ttf'); }
+body{ /*background-image: url("../assets/images/bubbles.jpg"); background-repeat:no-repeat; font-family: 'Roboto'; background-attachment:fixed;
+-webkit-background-size: 100% 100vh; -moz-background-size: 100% 100vh; -o-background-size: 100% 100vh; background-size: 100% 100vh ;*/ background:#ebefff; }
+.MainContent{ margin:0 auto; max-width:700px; background:white; height:100%; text-align:center; }
+
+/*LOGIN PAGE*/
+.Cent{background:white; text-align:center; padding: 10px; max-width:400px; margin:0 auto; border:2px solid #449cff;}
+@media screen and (max-width: 420px){ .Cent{margin: 0 10px;} }
+.Cent-div{ width:100%;}
+.Cent-title{color:#1181ff; padding:10px 0px 15px 0px; font-weight:bold;}
+.Cent-div hr{width:80%; margin:0 auto; border-color:#449cff;}
+.Cent-div form{ width:100%;}
+.Cred{ font-family:'Roboto'; min-width:95%; padding:10px; margin-top:10px; border-style:solid; border-width:1px; border-color:#BBBBBB;
+	border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; }
+.Cred-button{ background-color:#1181ff; color:#FFFFFF;
+	border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; }
+.Cred-label{text-align:left; }
+
+/*FIND ACCOUNT*/
+.CredC{ color:#AF4949; margin-top:10px; width:100%; border:none; font-size:14px; }
+.CredTop{ margin-top:0px; }
+
+/*HIDDEN DIV*/
+.HM{background:#ffebeb; text-align:left; padding:5px;}
+.HM-title{font-weight:bold; color:#ff1a1a; }
+.HM-message{color:#ff1a1a; }
+
+.SM{background:#cbffcb; text-align:left; padding:5px;}
+.SM-title{font-weight:bold; color:#00b100; }
+.SM-message{color:#00b100; }
+
+.TcMenu{ padding:0px; background:FF9490; text-align:center; color:#FFFFFF; }
+.TcTitle{ color:#FFFFFF; padding:50px; }
+a{ text-decoration:none; }
+
+/*HEADER MENU*/
+.HomeHead{ width:100%; background:#fcfeff; padding:5px 0px;}
+.CommonHead{color:#FFFFFF; padding:5px; }
+.AppName{ margin-left:5px; padding:2px 5px; float:left; font-weight:bold; border:2px solid #1181ff; border-radius:100%; background:#ffffff; color:#ff4a44; font-size:14px; }
+.AppLogout{ float:right;}
+.AppLogout button{ padding:5px;  background:#ff4a44; color:#ffffff; border:2px solid red; font-weight:bold; }
+.HeadMenu{ padding:2px;}
+.HeadMenu a{ text-decoration:none; color:#FFFFFF; }
+.MenuItem{ margin:0px 5px; float:left; list-style:none; padding:4px 5px; background:#ffffff; border:none; color:#444444; }
+
+/*TEACHER PAGE*/
+.MarkForm{ background:#eaefff; padding:4%;}
+.MenuSecDiv{ width:100%; background:lightblue; border:10px solid white; height:25vh; }
+.MSDContent{ border:10px solid blue; height:100%; }
+.MSDContent span{ border:1px solid red; vertical-align:middle; }
+#markButton:disabled{ background:#AF9999; border:1px solid #BBBBBB; }
+
+/*MARK FORM*/
+.MF, .TF{background:#a8cbf8;}
+
+/*VIEW FORM*/
+.VF, .NF{background:#aed4ff;}
+
+/*COMMON ELEMENTS MARK-VIEW FORM*/
+.MV{padding:4%; }
+.MV-cred{min-width:95%; padding:12px; margin:2.5px 0px; border:1px solid #cccccc; }
+.MV-cred:disabled{background:#eeeeee; color:#999999}
+.MV-cred-button{background: #ff5b5b; color:#ffffff;}
+
+/*ROLL CALL*/
+.RC-info{background:#8cb2c2; padding:15px 5px; color:white; }
+.RC-countDiv{float:left; margin-left:10px;}
+.RC-markAll{float:right; margin-right:10px;}
+.MADiv{ float:right; width:80%;}
+.MarkTable{ width:100%; border:1px solid black; background:yellow;}
+#rollCallSubmit{background:#81ff11; border:none; width:100%; padding:10px; }
+
+/*UPCOMING FEATURES*/
+.UpcomingFeatures{}
+.UFs-title{color:blue; padding:5px; margin:5px;}
+.UFeature{width:80%; padding:10px; margin:0 auto;}
+.UFeature:nth-of-type(1){background:red}
+.UFeature:nth-of-type(2){background:black}
+.UFeature:nth-of-type(3){background:green}
+.UF-title{color:#FFFFFF; padding:5px; }
+.UF-description{color:#FFFFFF}
+
+/*FOOTER*/
+.AppFooter{width:100%; padding:5px; background:#dddddd; }
+.AppFooter text{padding:10px; font-size:12px; width:80%;}
+
+/*EDIT STATUS POPUP*/
+.ESPopup { z-index:999;}
+.ESP-header{ background:black; color:white; }
+.ESP-title, .ESP-close{ }
+.ESP-title{ color:white; float:left; }
+.ESP-close{ background:black; color:white; border:2px solid white; float:right; padding:2px 4px; font-weight:bold; }
+.ESP-content{padding:2px;}
+#mainContent{display:block;}
+#vsEditPopup{ display:none; margin:0 auto; color: #000000; background-color: white; }
+
+/*VIEW ATTENDANCE*/
+.TS-table, .AA-table, .VS-table, .MA-table{width:100%;}
+.TS-table td, .AA-table td, .VS-table td, .MA-table td{border:1px solid black;}
+
+/*INFO DIV*/
+.ID{padding:5px; text-align:left; }
+.ID-list{list-style:none;}
+.ID-item{color:#303030;  padding:2px 0px; }
+.ID-table{width:100%; }
+.ID-table tr td{border:1px solid black; }
+.ID-item-button{padding:0px 5px; background:#ff8f11; color:#ffffff; }
+
+/*VIEW ATTENDANCE*/
+.VA-roll{color:#020202; }
+.VA-name{color:#171717; }
+
+/*PROFILE PAGE*/
+.GeneralDetails, .ClassDetails, .ResponseDetails{text-align:left;}
+.DetailsLevel-1{}
+.DetailsLevel-2{margin-left:10px;}
+.DetailsLevel-3{margin-left:20px;}
+.DetailsLevel-4{margin-left:30px;}
+
+/*MASTER TABLE*/
+.TVS{}
+.TVS-div{text-align:left;}
+.TVS-title{background:#87b2c2; padding:10px 5px; color:#ffffff; text-align:center; }
+.TVS-summary{ background:#e6eef2; padding:5px; }
+.TVS-info{color:#333333; }
+.TVS-content{}
+.TVS-table{width:100%; text-align:center;}
+.TVS-table tr td{border:none; border-collapse:collapse; margin:0px; }
+
+/*NOTIFICATION PAGE*/
+.NS-div{ padding:5px; text-align:left; }
+.NS-info{padding:5px; }
+.NS-text{color:#444444; }
+.NS-date{float:left; }
+.NS-time{float:right; }
+
+/*SUPPORT PAGE*/
+.SS{text-align:left;}
+.SS-title{padding:5px;}
+.SS-text{padding:0px 5px;}
+.SS-div{padding:5px; }
+.SS-ic{margin-top:10px; }
+.SS-input{padding:5px; }
+
+/*Big Button*/
+.NextLink{background:#1181ff; width:100%; padding:10px; margin:0 auto; color:#ffffff; }
